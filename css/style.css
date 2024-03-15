@@ -218,14 +218,25 @@ h4{
 
 .ingr-grid{
     display: grid;
-    grid-template-columns: 0.8fr 1fr 0.8fr ;
+    grid-template-columns: 1fr 600px 1fr ;
     align-items: center;
 }
 
 .ingr img{
-    width: 100px;
+    width: 110px;
 }
 
 .center{
     margin-left: -50px;
 }
+
+.ingr p{
+    margin-top: 0;
+}
+.center img{
+
+margin-left: -58px;
+margin-top: -50px;
+}
+
+
