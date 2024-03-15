@@ -177,6 +177,7 @@ h4{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
+    margin: 35px auto;
 }
 
 .revol-bullets-div h3{
@@ -209,4 +210,22 @@ h4{
 
 .r-2{
     width: 33px;
+}
+
+
+/* ingr */
+
+
+.ingr-grid{
+    display: grid;
+    grid-template-columns: 0.8fr 1fr 0.8fr ;
+    align-items: center;
+}
+
+.ingr img{
+    width: 100px;
+}
+
+.center{
+    margin-left: -50px;
 }
