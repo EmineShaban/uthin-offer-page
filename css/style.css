@@ -6,9 +6,10 @@ img {
     width: 100%;
 
 }
+
 /* hero */
 .hero {
-     position: relative;
+    position: relative;
 
 }
 
@@ -25,6 +26,7 @@ img {
 .red {
     color: #FD1A09;
 }
+
 .orange {
     color: #FF8C1D;
 }
@@ -63,19 +65,19 @@ img {
     font-weight: bold;
 }
 
-.arrow{
+.arrow {
     width: 150px;
     margin-top: -80px;
     z-index: 3;
     position: absolute;
 }
 
-.hero2{
+.hero2 {
     display: flex;
-   
+
 }
 
-.cta{
+.cta {
     display: block;
     margin: 35px auto;
     text-align: center;
@@ -91,7 +93,7 @@ img {
 
 /* results */
 
-.results{
+.results {
     background-color: #EBEBEB;
     display: flex;
     flex-direction: row;
@@ -99,42 +101,42 @@ img {
     justify-content: center;
 }
 
-.results img{
+.results img {
     width: 100px;
     margin: 25px 50px;
 }
 
-.results p:nth-child(1){
+.results p:nth-child(1) {
     font-size: 35px;
     font-weight: bold;
     line-height: 1.2;
-    
+
 }
 
 
-.results p:last-child{
+.results p:last-child {
     font-size: 25px;
     font-weight: bold;
     line-height: 1.2;
-    
+
 }
 
-.results p:last-child span{
+.results p:last-child span {
     font-size: 20px;
     font-weight: 400;
 
 }
 
 
-.title{
-    font-size: 38px; 
+.title {
+    font-size: 38px;
     color: black;
     text-align: center;
     margin-bottom: 0;
 }
 
-.title2{
-    font-size: 30px; 
+.title2 {
+    font-size: 30px;
     color: #FD1A09;
     text-align: center;
     margin-top: 0;
@@ -142,19 +144,19 @@ img {
 
 
 
-h4{
+h4 {
     color: #FF8C1D;
     font-weight: 20px;
 }
 
-.revolutionary-weight-loss{
+.revolutionary-weight-loss {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #34469E;
     margin: 0;
 }
 
-.revolutionary-content{
+.revolutionary-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,23 +166,23 @@ h4{
 }
 
 
-.revolutionary-content h4{
+.revolutionary-content h4 {
     font-size: 20px;
 }
 
-.revolutionary-content p{
+.revolutionary-content p {
     color: white;
 }
 
 
-.revol-bullets{
+.revol-bullets {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
     margin: 35px auto;
 }
 
-.revol-bullets-div h3{
+.revol-bullets-div h3 {
     background-color: #FD1A09;
     color: white;
     text-align: center;
@@ -191,24 +193,24 @@ h4{
     margin-bottom: 0;
 }
 
-.revol-bullets-div div{
-    display: flex; 
+.revol-bullets-div div {
+    display: flex;
     gap: 15px;
     align-items: center;
     justify-content: center;
-    background-color: #F7F7F7 ;
+    background-color: #F7F7F7;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     padding: 15px;
 }
 
-.revol-bullets-div div img{
- 
-    max-width: 50px;  
-    max-height: 80px; 
+.revol-bullets-div div img {
+
+    max-width: 50px;
+    max-height: 80px;
 }
 
-.r-2{
+.r-2 {
     width: 33px;
 }
 
@@ -216,27 +218,115 @@ h4{
 /* ingr */
 
 
-.ingr-grid{
+.ingr-grid {
     display: grid;
-    grid-template-columns: 1fr 600px 1fr ;
+    grid-template-columns: 1fr 600px 1fr;
     align-items: center;
 }
 
-.ingr img{
+.ingr img {
     width: 110px;
 }
 
-.center{
+.center {
     margin-left: -50px;
 }
 
-.ingr p{
+.ingr p {
     margin-top: 0;
 }
-.center img{
 
-margin-left: -58px;
-margin-top: -50px;
+.center img {
+
+    margin-left: -58px;
+    margin-top: -50px;
 }
 
 
+
+
+/* banner */
+
+.banner {
+    position: relative;
+    top: 70px;
+    background-image: url(../images/black-banner_desktop.png);
+    background-size: cover;
+    padding: 15px 0px;
+    margin-top: 30px;
+    height: 700px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner .banner-content {
+    background-color: #34469e;
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.banner h2 {
+    text-align: center;
+    font-size: 35px;
+    line-height: 35px;
+    color: white;
+    text-transform: uppercase;
+    padding: 0px 5px;
+    margin: 0;
+}
+
+.banner .animated-button1 {
+    background: #db3c28;
+    font-weight: 600;
+}
+
+.banner p {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    margin: 10px 0px;
+    font-size: 17px;
+}
+
+.banner .order-button {
+    text-align: center;
+}
+
+
+.banner {
+    margin-bottom: 100px;
+}
+
+
+
+
+.banner .animated-button1 {
+    background: #db3c28;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.btn-div{
+    margin: 15px auto;
+}
+
+/* doc */
+
+.doc{
+    background-color: #EBEBEB;
+    border-top: #34469E 1px dashed ;
+    border-bottom: #34469E 1px dashed ;
+
+}
+
+.doc h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 38px;
+    color: black;
+    padding-top: 20px;
+}
