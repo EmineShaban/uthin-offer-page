@@ -171,3 +171,42 @@ h4{
 .revolutionary-content p{
     color: white;
 }
+
+
+.revol-bullets{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.revol-bullets-div h3{
+    background-color: #FD1A09;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    font-size: 20px;
+    padding: 7px 0;
+    margin-bottom: 0;
+}
+
+.revol-bullets-div div{
+    display: flex; 
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7 ;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding: 15px;
+}
+
+.revol-bullets-div div img{
+ 
+    max-width: 50px;  
+    max-height: 80px; 
+}
+
+.r-2{
+    width: 33px;
+}
