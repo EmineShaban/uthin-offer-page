@@ -330,3 +330,33 @@ h4 {
     color: black;
     padding-top: 20px;
 }
+
+.doc-div{
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 50px;
+    margin-bottom: 35px;
+}
+
+.doc-text p:nth-child(1){
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.doc-text p:nth-child(2){
+    font-size: 22px;
+    color: #34469E;
+    margin-top: 0;
+}
+.doc-text p:nth-child(3){
+    font-size: 16px;
+}
+
+.doc-text img{
+    width: 100px;
+}
+
+
+.banner2{
+    margin: 50px auto;
+}
