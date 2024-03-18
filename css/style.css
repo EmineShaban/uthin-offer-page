@@ -586,17 +586,66 @@ h4 {
 }
 
 .red-banner{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+ 
     background-color: #C91B31;
     margin-top: 35px;
+    position: relative;
+}
+.xtra-img{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+.back{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    margin: auto;
 }
 .red-banner h3{
     font-size: 20px;
     color: white;
-    text-align: center;
+    text-align: center; 
+    margin: auto;
 }
 .red-banner h3 span{
     font-size: 40px;
     display: block;
+    margin-bottom: 5px;
 }
+
+.red-div{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    
+    border: 1px solid white;
+    margin: 25px;
+    border-radius: 24px;
+    width: 60%;
+    padding: 25px;
+}
+
+.red-div div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+
+.red-div div:nth-child(1) img{
+    width: 45px;
+}
+
+.red-div div:last-child img{
+    width: 125px;
+}
+
+.and{
+    width: 70%;
+    margin: auto;
+}
+
+ 
