@@ -697,12 +697,10 @@ h4 {
 }
 
 .swiper-div {
-    background-color: #F7F7F7;
-    margin: 26px;
-    padding: 25px;
-    border: 1px solid #D6D6D6;
-    border-radius: 16px;
+    /* padding: 25px; */
     height: 80%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .swiper {
@@ -714,6 +712,7 @@ h4 {
     width: 130px;
     display: block;
     margin: auto;
+    margin-top: 20px;
 }
 
 .swiper-div p {
@@ -729,12 +728,14 @@ h4 {
 .stars {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 
 }
 
 .stars p {
     font-size: 12px;
     margin: 0;
+    
 }
 
 .swiper-div .stars img {
@@ -752,11 +753,45 @@ h4 {
 
 .swiper-slide {
     height: auto !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #F7F7F7;
+    margin: 5px;
+    border: 1px solid #D6D6D6;
+    border-radius: 16px;
+ 
+ 
 }
 
 .swiper-button-next:after,
 .swiper-button-prev:after {
     color: black;
-    font-size: 20px!important;
+    font-size: 20px !important;
     font-weight: 900;
+}
+
+.icon{
+    width: 35px;
+    margin-bottom: -40px;
+    margin-left: 20px;
+}
+
+.icon2{
+    width: 60px;
+    margin-bottom: -40px;
+    margin-left: 20px;
+}
+
+.faq-title{
+    font-size: 38px;
+    color: black;
+    text-align: center;
+    margin-bottom: 15px;
+    display: block;
+    border: #FD1A09 1px dashed;
+    background-color: #F7F7F7;
+    padding: 20px;
+    color: #FD1A09;
 }
