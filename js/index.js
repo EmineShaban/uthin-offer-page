@@ -17,7 +17,23 @@ for (i = 0; i < acc.length; i++) {
     });
 }
 
+let seeMore = document.getElementsByClassName("see-more")[0]
 
+let text = document.getElementsByClassName("doc-text2")[0]
+
+
+function onClick(){
+    console.log(seeMore.innerText)
+    console.log(text)
+
+     if(seeMore.innerText == "See More"){
+        text.style.display = "block"
+        seeMore.innerText = "See Less"
+    }else{
+        text.style.display = "none"
+        seeMore.innerText = "See More"
+    }
+}
 
  
 // var acc = document.getElementsByClassName("q");
