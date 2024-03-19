@@ -840,6 +840,7 @@ h4 {
     font-size: 18px;
     font-weight: 600;
     transition: 0.4s;
+    cursor: pointer;
 
 }
 
@@ -853,7 +854,6 @@ h4 {
 
 .a {
     display: none;
-
     background-color: #FD1A09;
     color: white;
     font-size: 14px;
