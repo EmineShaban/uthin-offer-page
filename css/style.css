@@ -1319,7 +1319,25 @@ h4 {
     }
     .results {
         display: grid;
+        grid-template-areas: 
+        "one two"
+        "three three";
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
+    #one{
+        grid-area: one;
+        text-align: right;
 
+    }
+    #two{
+        grid-area: two; 
+        margin: 0;
+        margin-left: 45px;
+    }    
+    #three{
+        grid-area: three;
+        text-align: center;
 
+    }
 }
