@@ -306,7 +306,7 @@
 
                 <h3><span>How to Use</span>
                     Your 2-Part Weight Loss </h3>
-                <div class="instruction">
+                <div class="instruction desktop994">
                     <div>
                         <img src="./images/capsule.png" alt="">
                         <p>Take <b>1 UTHIN XtraBurn Slim cap</b>
@@ -319,6 +319,14 @@
                                 Triple Slim</b>
                             before lunch daily</p>
                     </div>
+                </div>
+                <div class="instruction-mob mobile994">
+                    <img src="./images/how-to-use.png" alt="">
+                    <ul>
+                        <li>Take <b>1 UTHIN XtraBurn Slim cap</b> with water before breakfast</li>
+                        <li>
+                            <b>1 sachet of UTHIN Triple Slim</b> before lunch daily</li>
+                    </ul>
                 </div>
                 <img class="xtra-img" src="./images/xtra burn 1.png" alt="">
             </div>
@@ -393,8 +401,9 @@
                     <div class="swiper-div">
                         <img src="./images/rev1.png" alt="">
                         <p class="name"><b>Isabelle, 40 years old
-                        </b></p>
-                        <p>“I do not look pregnant anymore because of a bloated stomach, and I got rid of the love handles. I lost 16 kilos! ”
+                            </b></p>
+                        <p>“I do not look pregnant anymore because of a bloated stomach, and I got rid of the love
+                            handles. I lost 16 kilos! ”
                         </p>
                         <div class="stars">
                             <img src="./images/stars.png" alt="">
@@ -410,8 +419,10 @@
                     <div class="swiper-div">
                         <img src="./images/rev2.png" alt="">
                         <p class="name"><b>Bethany, 23 years old
-                        </b></p>
-                        <p>“I feel great when I look at myself in the mirror. I enjoy wearing tight jeans and short skirts. I get compliments on how sexy I look, and keep taking Uthin Slim to maintain the results!”
+                            </b></p>
+                        <p>“I feel great when I look at myself in the mirror. I enjoy wearing tight jeans and short
+                            skirts. I get compliments on how sexy I look, and keep taking Uthin Slim to maintain the
+                            results!”
                         </p>
                         <div class="stars">
                             <img src="./images/stars.png" alt="">
@@ -424,7 +435,7 @@
                     <img class="icon2" src="./images/icon1.png" alt="">
 
                 </div>
-              
+
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -481,11 +492,21 @@
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 3,
-            spaceBetween: 25,
+            slidesPerView: 1,
+            spaceBetween: 15,
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 25,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                },
             },
         });
     </script>
