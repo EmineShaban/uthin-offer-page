@@ -1176,10 +1176,30 @@ h4 {
     }
 
 
+.banner2-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
 
-
-
-
-
-
+}
+.banner2{
+    margin-bottom: 120px;
+}
+.banner2-mob{
+    margin-bottom: -80px;
+}
+.banner2-div h3 {
+    background-color: #F7F7F7;
+    display: block;
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px;
+}
 }
